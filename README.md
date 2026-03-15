@@ -11,7 +11,7 @@ ReefGuard is a **dual-sensor floating buoy** deployed in protected marine habita
 4. **Alerts** - Notifies law enforcement in real-time
 
 5. 
-## How It Works
+## Distance Sensing using Wi-Fi router and phone
 We used a linear interpolation algorithm to estimate values between two known points. The formula for linear interpolation is:
 
 \[ L(x) = y_0 + \frac{(y_1 - y_0)}{(x_1 - x_0)}(x - x_0) \]

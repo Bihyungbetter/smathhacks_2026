@@ -14,13 +14,16 @@ ReefGuard is a **dual-sensor floating buoy** deployed in protected marine habita
 ## Distance Sensing using Wi-Fi router and phone
 We used a linear interpolation algorithm to estimate values between two known points. The formula for linear interpolation is:
 
-\[ L(x) = y_0 + \frac{(y_1 - y_0)}{(x_1 - x_0)}(x - x_0) \]
+$$
+L(x) = y_0 + \frac{y_1 - y_0}{x_1 - x_0}(x - x_0)
+$$
 
-where:
-- \(L(x)\): interpolated value at \(x\)
-- \(x_0, y_0\): coordinates of the first known point
-- \(x_1, y_1\): coordinates of the second known point
-- 
+**where:**
+
+- $L(x)$ — interpolated value at $x$
+- $x_0, y_0$ — coordinates of the first known point
+- $x_1, y_1$ — coordinates of the second known point
+
 To find the values, we first calibrated 5 defined values using calibrate.sh and used them for the algorithm.
 
 ## Neural Network Training Process

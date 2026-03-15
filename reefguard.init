@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=10
+
+start() {
+    echo "Starting ReefGuard geofence monitor"
+    /tmp/reefguard/geofence.sh &
+    /tmp/reefguard/api_server.sh &
+}
+
+stop() {
+    echo "Stopping ReefGuard"
+    killall geofence.sh 2>/dev/null
+    killall api_server.sh 2>/dev/null
+}

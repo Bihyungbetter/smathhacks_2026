@@ -21,7 +21,7 @@ where:
 - \(x_0, y_0\): coordinates of the first known point
 - \(x_1, y_1\): coordinates of the second known point
 - 
-To find the values, we first calibrated 5 defined values and used it for the algorithim.
+To find the values, we first calibrated 5 defined values using calibrate.sh and used them for the algorithm.
 
 ## Neural Network Training Process
 The actual model was created and trained using Edge Impulse, which was then exported to Arduino. Sound is taken in through a microphone on the Arduino Nano 33 BLE, and the sound data is then used to produce a prediction of whether or not a ship is there. The data folders and Arduino code are listed on the GitHub repository. The original model had much higher training data, but TinyML didn't have sufficient memory, so only one model and limited memory was allowed. 

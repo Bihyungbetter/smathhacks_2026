@@ -14,8 +14,9 @@ ReefGuard is a **dual-sensor floating buoy** deployed in protected marine habita
 1. Arduino Uno R3
 2. Arduino Tiny Machine Learning Kit
 3. Micro Servo 9g
-4. GL.iNet Router (OpenWrt) 
-5. CAD File https://ncssm.onshape.com/documents/62f700a6995dc5237d6cae4d/w/bc9af101aebb61ccc203b014/e/45f9962600fb57eff495c581?renderMode=0&uiState=69b6d75f1dfd08036e3173f4
+4. GL.iNet Router (OpenWrt) (Can detect multiple phones/ships)
+5. CAD File https://ncssm.onshape.com/documents/62f700a6995dc5237d6cae4d/w/bc9af101aebb61ccc203b014/e/45f9962600fb57eff495c581?renderMode=0&uiState=69b6d75f1dfd08036e3173f4 (Used PLA for 3D printing, allowing the buoy to float)
+6. Phone (Used to simulate as ships, and the Router is a beacon for ships)
 ## Distance Sensing using Wi-Fi router and phone
 We used a linear interpolation algorithm to estimate values between two known points. The formula for linear interpolation is:
 

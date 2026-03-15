@@ -10,7 +10,12 @@ ReefGuard is a **dual-sensor floating buoy** deployed in protected marine habita
 3. **Tracks**  - Monitors vessel movement through geofenced zones
 4. **Alerts** - Notifies law enforcement in real-time
 
-
+## Hardware
+1. Arduino Uno R3
+2. Arduino Tiny Machine Learning Kit
+3. Micro Servo 9g
+4. GL.iNet Router (OpenWrt) 
+5. CAD File https://ncssm.onshape.com/documents/62f700a6995dc5237d6cae4d/w/bc9af101aebb61ccc203b014/e/45f9962600fb57eff495c581?renderMode=0&uiState=69b6d75f1dfd08036e3173f4
 ## Distance Sensing using Wi-Fi router and phone
 We used a linear interpolation algorithm to estimate values between two known points. The formula for linear interpolation is:
 
